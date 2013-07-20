@@ -8,7 +8,7 @@ Add an application alias in you application configuration that points to the ext
 
 // protected/config/main.php
 ...
-`'import'=>array(
+```'import'=>array(
     'application.models.*',
     'application.components.*',
 ),
@@ -17,7 +17,7 @@ Add an application alias in you application configuration that points to the ext
     'xupload' => 'ext.vendor.asgaroth.xupload'
     //If you manually installed it
     'xupload' => 'ext.xupload'
-),`
+),```
 
 Create a model, declare an attribute to store the uploaded file data, and declare the attribute to be validated by the 'file' validator. Or use XUploadForm
     Create a controller to handle form based file uploads. Or use XUploadAction
