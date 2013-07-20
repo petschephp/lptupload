@@ -1,11 +1,15 @@
 <?php
 Yii::import('zii.widgets.jui.CJuiInputWidget');
 /**
- * XUpload extension for Yii.
+ * Most of the code came from the XUpload extension for Yii.
  *
  * jQuery file upload extension for Yii, allows your users to easily upload files to your server using jquery
  * Its a wrapper of  http://blueimp.github.com/jQuery-File-Upload/
  *
+ * @author Kevin Petsche <petschephp@gmail.com>
+ * @link https://github.com/petschephp/lptupload
+ * 
+ * XUpload Author
  * @author AsgarothBelem <asgaroth.belem@gmail.com>
  * @link http://blueimp.github.com/jQuery-File-Upload/
  * @link https://github.com/Asgaroth/xupload
