@@ -1,4 +1,5 @@
-# XUpload extension for Yii Framework
+# LPTUpload extension for Yii Framework
+The code is based on XUpload for Yii, but it runs a more up to date version of Blue Imp jQuery File Upload
 
 ## Yii extension page
 [Extension page](http://www.yiiframework.com/extension/xupload/)
